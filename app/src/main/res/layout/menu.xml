@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ketemploy.uts_pbb.Menu">
+    <Button
+        android:id="@+id/olahraga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Olahraga"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/olahraga"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="EXIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExit"
+        android:layout_marginTop="60dp"
+        android:layout_alignTop="@+id/about"
+        android:layout_alignStart="@+id/about" />
+
+</RelativeLayout>
